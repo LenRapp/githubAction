@@ -10,4 +10,4 @@ jobs:
           echo "Declenche par PUSH"
           username -a
           whoami
-          env | soi
+          env | sort
