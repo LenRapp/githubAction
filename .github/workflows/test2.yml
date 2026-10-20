@@ -8,6 +8,6 @@ jobs:
       - name: Affichage des infos systeme
         run: |
           echo "Declenche par PUSH"
-          username -a
+          uname -a
           whoami
           env | sort
