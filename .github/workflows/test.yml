@@ -2,12 +2,8 @@ name: Test de github Actions
 on: [push]
 
 jobs:
-  info-syteme:
+  faire-un-hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Affichage des infos systeme
-        run: |
-          echo "Declenche par PUSH"
-          username -a
-          whoami
-          env | sort
+      - name: Afficher hello
+        run: echo "Bienvenue sur Ubuntu de GitHub Actions"
